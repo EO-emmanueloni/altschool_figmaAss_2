@@ -8,7 +8,7 @@
 
 body{
     background-color: black;
-    height: 100vh;
+    /* height: 100vh; */
     
 }
 
@@ -106,13 +106,10 @@ main {
 @media (max-width: 479px) {
 
 
-    body {
-        height: 100%;
-        min-height: 100vh;
-    }
+   
     .container, .card {
-        max-width: 90%;
-        margin: 10px auto;
+        max-width: 600px;
+        margin:10% auto;
     }
 
     header h2 {
@@ -127,8 +124,8 @@ main {
 
     .card h2 {
         font-size: 1em;
-        margin-left: 0;
-        padding: 8px;
+        margin-left: -30px;
+        padding: 10px;
     }
 
     .card p {
@@ -144,7 +141,8 @@ main {
     }
     .container, .card {
         max-width: 95%;
-        margin: 15px auto;
+        margin: 10px auto;
+    
     }
 
     header h2 {
@@ -157,7 +155,7 @@ main {
 
     .card h2 {
         font-size: 1.1em;
-        margin-left: -15px;
+        margin-left: -25px;
         padding: 8px;
     }
 
@@ -170,10 +168,10 @@ main {
 
     body {
         height: 100%;
-        min-height: 100vh;
+        
     }
     .container, .card {
-        max-width: 85%;
+        max-width: 500px;
         margin: 20px auto;
     }
 
@@ -188,7 +186,7 @@ main {
     .card h2 {
         font-size: 1.15em;
         padding: 10px;
-        margin-left: -20px;
+        margin-left: -25px;
     }
 
     .card p {
